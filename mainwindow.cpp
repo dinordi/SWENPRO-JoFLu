@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     qDebug() << "Hello JOEY STINKT NAAR GRAS";
-
 }
 
 MainWindow::~MainWindow()
