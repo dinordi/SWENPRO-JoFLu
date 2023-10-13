@@ -17,6 +17,7 @@ public:
 public slots:
     void EMERGENCYSTOP();
     void EMERGENCYSTOPRESET();
+    void OpenDoors();
 private:
     Ui::MainWindow *ui;
 

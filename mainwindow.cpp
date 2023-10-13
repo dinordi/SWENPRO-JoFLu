@@ -10,6 +10,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(ui->btnEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOP);
     connect(ui->btnResetEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
+    connect(ui->btnOpenDoors, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
+    connect(ui->btnCloseDoors, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
 }
 
 MainWindow::~MainWindow()
@@ -26,4 +28,10 @@ void MainWindow::EMERGENCYSTOPRESET()
 {
     ui->lblStatus->setText(" ");
 }
+
+void MainWindow::OpenDoors()
+{
+    ui->lblStatus->setText(" ");
+}
+
 
