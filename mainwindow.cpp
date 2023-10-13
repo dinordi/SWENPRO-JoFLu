@@ -19,7 +19,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::EMERGENCYSTOP()
 {
-    ui->lblStatus->setText("STOPPED");
+    ui->lblStatus->setText("EMERGENCY");
 }
 void MainWindow::EMERGENCYSTOPRESET()
 {
