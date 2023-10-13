@@ -17,6 +17,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+//Emergency Reset
 void MainWindow::EMERGENCYSTOP()
 {
     ui->lblStatus->setText("EMERGENCY");
@@ -25,3 +26,4 @@ void MainWindow::EMERGENCYSTOPRESET()
 {
     ui->lblStatus->setText(" ");
 }
+
