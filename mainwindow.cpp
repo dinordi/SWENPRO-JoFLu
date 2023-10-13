@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     qDebug() << "Hello JOEY STINKT NAAR GRAS";
 
+    connect(ui->btnEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOP);
+    connect(ui->btnResetEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
 }
 
 MainWindow::~MainWindow()
@@ -15,3 +17,11 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::EMERGENCYSTOP()
+{
+    ui->lblStatus->setText("EMERGENCY");
+}
+void MainWindow::EMERGENCYSTOPRESET()
+{
+    ui->lblStatus->setText(" ");
+}
