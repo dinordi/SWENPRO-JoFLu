@@ -27,6 +27,10 @@ public slots:
 private slots:
     void on_btn_go_UP_clicked();
     void on_btn_GO_DOWN_clicked();
+    void on_buttonfloor1_clicked();
+    void on_buttonfloor2_clicked();
+    void on_buttonfloor3_clicked();
+    void on_buttonfloor4_clicked();
 private:
     Ui::MainWindow *ui;
 

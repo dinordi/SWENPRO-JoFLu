@@ -43,7 +43,7 @@ void MainWindow::EMERGENCYSTOPRESET()
     ui->lblStatus->setText(" ");
 }
 
-void mainwindow::on_buttonfloor1_clicked()
+void MainWindow::on_buttonfloor1_clicked()
 {
         ui->floorLED1->setStyleSheet("background-color: white;");
         ui->floorLED2->setStyleSheet("background-color: black;");
@@ -52,7 +52,7 @@ void mainwindow::on_buttonfloor1_clicked()
 
 }
 
-void mainwindow::on_buttonfloor2_clicked()
+void MainWindow::on_buttonfloor2_clicked()
 {
 
         ui->floorLED2->setStyleSheet("background-color: white;");
@@ -61,7 +61,7 @@ void mainwindow::on_buttonfloor2_clicked()
         ui->floorLED4->setStyleSheet("background-color: black;");
 }
 
-void mainwindow::on_buttonfloor3_clicked()
+void MainWindow::on_buttonfloor3_clicked()
 {
 
         ui->floorLED3->setStyleSheet("background-color: white;");
@@ -70,7 +70,7 @@ void mainwindow::on_buttonfloor3_clicked()
         ui->floorLED4->setStyleSheet("background-color: black;");
 }
 
-void mainwindow::on_buttonfloor4_clicked()
+void MainWindow::on_buttonfloor4_clicked()
 {
 
 

@@ -118,62 +118,10 @@
      <string>STATUS LED</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_GO_DOWN">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>310</y>
-      <width>111</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Go down</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn_go_UP">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>390</y>
-      <width>111</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Go up</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="DOWN_LED">
+   <widget class="QLabel" name="UP_LED">
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>130</y>
-      <width>111</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>DOWNLED</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="UP_LED">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>130</y>
-      <width>111</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>UPLED</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="UP_LED">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
       <y>140</y>
       <width>49</width>
       <height>16</height>
@@ -186,7 +134,7 @@
    <widget class="QLabel" name="DOWN_LED">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>50</x>
       <y>160</y>
       <width>49</width>
       <height>16</height>
@@ -199,8 +147,8 @@
    <widget class="QPushButton" name="btn_go_UP">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>130</y>
+      <x>380</x>
+      <y>320</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -226,8 +174,8 @@ color:white;
    <widget class="QPushButton" name="btn_GO_DOWN">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>180</y>
+      <x>380</x>
+      <y>370</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -248,6 +196,110 @@ color:white;
     </property>
     <property name="text">
      <string>GO DOWN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="floorLED1">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="floorLED2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>70</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="floorLED3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="floorLED4">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonfloor2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>230</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonfloor1">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>150</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonfloor3">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>310</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonfloor4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>390</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Floor 4</string>
     </property>
    </widget>
   </widget>
