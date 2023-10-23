@@ -9,8 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     qDebug() << "Hello JOEY STINKT NAAR GRAS";
     connect(ui->btnEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOP);
     connect(ui->btnResetEmergency, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
-    connect(ui->btnOpenDoors, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
-    connect(ui->btnCloseDoors, &QPushButton::clicked, this, &MainWindow::EMERGENCYSTOPRESET);
+    connect(ui->btnOpenDoors, &QPushButton::clicked, this, &MainWindow::OpenDoors);
+    connect(ui->btnCloseDoors, &QPushButton::clicked, this, &MainWindow::CloseDoors);
 
 }
 
@@ -61,7 +61,7 @@ void MainWindow::doorDelay()
 
 void MainWindow::on_btn_go_UP_clicked()
 {
-    if (!ui->UP_LED ->styleSheet().contains("background-color: green;")) 
+    if (!ui->UP_LED->styleSheet().contains("background-color: green;"))
     {
         // Activate the first LED
         ui->UP_LED->setStyleSheet("background-color: green;");
