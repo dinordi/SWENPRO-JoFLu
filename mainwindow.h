@@ -23,6 +23,7 @@ public slots:
     void EMERGENCYSTOPRESET();
     void OpenDoors();
     void CloseDoors();
+    void doorDelay();
 private:
     Ui::MainWindow *ui;
 

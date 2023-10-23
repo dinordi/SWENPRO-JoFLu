@@ -54,6 +54,10 @@ void MainWindow::OpenDoors()
 void MainWindow::CloseDoors()
 {
     ui->lblStatus->setText("Doors Closing...");
-    //Wait 3 seconds
+    doorDelay();
 }
 
+void MainWindow::doorDelay()
+{
+    //Waiting for 3 seconds
+}
