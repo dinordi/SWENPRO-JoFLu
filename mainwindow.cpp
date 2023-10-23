@@ -98,8 +98,7 @@ void MainWindow::doorDelay()
 
 void MainWindow::on_btn_go_UP_clicked()
 {
-    if (!ui->UP_LED->styleSheet().contains("background-color: green;"))
-    {
+    if (!ui->UP_LED ->styleSheet().contains("background-color: green;")) {
         // Activate the first LED
         ui->UP_LED->setStyleSheet("background-color: green;");
         // Deactivate the second LED
@@ -111,6 +110,7 @@ void MainWindow::on_btn_go_UP_clicked()
         ui->DOWN_LED->setStyleSheet("background-color: white;");
     } 
 }
+
 
 
 void MainWindow::on_btn_GO_DOWN_clicked()

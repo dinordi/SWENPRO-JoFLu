@@ -26,7 +26,6 @@ public slots:
     void doorDelay();
 private slots:
     void on_btn_go_UP_clicked();
-
     void on_btn_GO_DOWN_clicked();
 private:
     Ui::MainWindow *ui;
