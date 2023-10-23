@@ -43,6 +43,43 @@ void MainWindow::EMERGENCYSTOPRESET()
     ui->lblStatus->setText(" ");
 }
 
+void mainwindow::on_buttonfloor1_clicked()
+{
+        ui->floorLED1->setStyleSheet("background-color: white;");
+        ui->floorLED2->setStyleSheet("background-color: black;");
+        ui->floorLED3->setStyleSheet("background-color: black;");
+        ui->floorLED4->setStyleSheet("background-color: black;");
+
+}
+
+void mainwindow::on_buttonfloor2_clicked()
+{
+
+        ui->floorLED2->setStyleSheet("background-color: white;");
+        ui->floorLED1->setStyleSheet("background-color: black;");
+        ui->floorLED3->setStyleSheet("background-color: black;");
+        ui->floorLED4->setStyleSheet("background-color: black;");
+}
+
+void mainwindow::on_buttonfloor3_clicked()
+{
+
+        ui->floorLED3->setStyleSheet("background-color: white;");
+        ui->floorLED1->setStyleSheet("background-color: black;");
+        ui->floorLED2->setStyleSheet("background-color: black;");
+        ui->floorLED4->setStyleSheet("background-color: black;");
+}
+
+void mainwindow::on_buttonfloor4_clicked()
+{
+
+
+        ui->floorLED4->setStyleSheet("background-color: white;");
+        ui->floorLED1->setStyleSheet("background-color: black;");
+        ui->floorLED2->setStyleSheet("background-color: black;");
+        ui->floorLED3->setStyleSheet("background-color: black;");
+}
+
 void MainWindow::OpenDoors()
 {
     ui->lblStatus->setText("Doors opened");
@@ -90,3 +127,4 @@ void MainWindow::on_btn_GO_DOWN_clicked()
           ui->DOWN_LED->setStyleSheet("background-color: white;");
   }
 }
+
