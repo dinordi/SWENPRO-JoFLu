@@ -15,10 +15,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+
 private slots:
     void on_push_clicked();
-
+public slots:
+    void EMERGENCYSTOP();
+    void EMERGENCYSTOPRESET();
 private:
     Ui::MainWindow *ui;
+
 };
 #endif // MAINWINDOW_H
