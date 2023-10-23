@@ -296,7 +296,7 @@ color:white;
     </property>
     <property name="text">
      <string/>
-    </property
+    </property>
    </widget>
    <widget class="QPushButton" name="btnOpenDoors">
     <property name="geometry">
@@ -415,8 +415,4 @@ color:white;
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
- </widget>
- <resources/>
- <connections/>
 </ui>
